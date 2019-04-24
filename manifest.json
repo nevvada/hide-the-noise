@@ -1,0 +1,15 @@
+{
+  "name": "Hide the Noise",
+  "version": "1.0",
+  "description": "Hides miscellaneous elements on MDN!",
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/*"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
