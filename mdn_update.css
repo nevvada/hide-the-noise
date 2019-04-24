@@ -1,0 +1,28 @@
+#main-header, #wiki-left, .toc-links, .toc-head {
+  display: none;
+}
+
+
+.column-container {
+  margin-left: -34%;
+}
+
+/* <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" /> */
+article {
+  display: grid;
+  font-family: Lora, serif;
+  background: #F0F4F4;
+  color: #002127;
+  font-size: 1.5em;
+}
+
+pre.syntaxbox, pre.twopartsyntaxbox {
+  font-size: 1.2em;
+  background: #002127;
+  color: #D1DBBD;
+}
+
+.var {
+  color: #a462d2;
+  font-weight: 800;
+}
