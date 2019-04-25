@@ -1,7 +1,17 @@
-#main-header, #wiki-left, .toc-links, .toc-head {
+#main-header,
+#wiki-left,
+.toc-links,
+.toc-head {
   display: none;
 }
 
+.page-buttons {
+  display: none;
+}
+
+#toc .center {
+  display: none !important;
+}
 
 .column-container {
   margin-left: -34%;
@@ -11,15 +21,16 @@
 article {
   display: grid;
   font-family: Lora, serif;
-  background: #F0F4F4;
+  background: rgb(64, 68, 71),
   color: #002127;
   font-size: 1.5em;
 }
 
-pre.syntaxbox, pre.twopartsyntaxbox {
+pre.syntaxbox,
+pre.twopartsyntaxbox {
   font-size: 1.2em;
   background: #002127;
-  color: #D1DBBD;
+  color: #d1dbbd;
 }
 
 .var {
