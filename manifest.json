@@ -3,9 +3,9 @@
   "version": "1.0",
   "description": "Hides miscellaneous elements on MDN!",
   "content_scripts": [
-    {
-      "css": ["mdn_update.css"],
+    { 
       "js": ["content.js"],
+      "css": ["mdn_update.css"],
       "matches": [
         "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/*"
       ]
