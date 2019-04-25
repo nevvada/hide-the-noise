@@ -1,4 +1,6 @@
-#main-header,
+.logo,
+.nav-main-item,
+.login,
 #wiki-left,
 .toc-links,
 .toc-head,
@@ -15,11 +17,13 @@
 #See_also + ul,
 h2#See_also,
 .newsletter-block,
-.local-anchor {
+.local-anchor,
+#See_also + ul {
   display: none !important;
 }
 
-.document-head {
+.document-head, #main-header {
+  border: 0 !important;
   background-color: rgb(47, 52, 55) !important;
   color: rgb(236, 237, 237);
 }
@@ -68,9 +72,22 @@ html {
   background: rgb(47, 52, 55) !important;
 }
 
+.text-content h3#hightlight-spanned .highlight-span code, .text-content h3 code {
+  background: transparent !important;
+}
+
+.search-wrap {
+  display: block;
+}
+
+#visable {
+  display: block !important;
+}
+
 var {
   color: #a462d2;
-  font-weight: 800;
+  font-style: normal !important;
+  font-weight: 900 !important;
 }
 
 iframe {
@@ -109,39 +126,11 @@ code {
   padding: none !important;
 }
 
-.note > :last-child {
-  background: light;
-}
-
-.newsletter-block {
-  display: none !important;
-}
-
-h2#See_also {
-  display: none !important;
-}
-
-#See_also + ul {
-  display: none !important;
-}
-
-.wiki-block,
-.contributors-sub,
-.newsletter-box {
-  display: none !important;
-}
-
-#nav-footer {
-  display: none !important;
-}
-
-
 article {
   padding-top: 30px;
   display: grid;
   align-content: center;
 }
-
 
 
 #wikiArticle {

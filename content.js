@@ -16,14 +16,17 @@
 //     'http://placekitten.com/' + images[i].width + '/' + images[i].height;
 // }
 
-document.addEventListener("DOMContentLoaded", function(){
-  // Handler when the DOM is fully loaded
-  WebFont.load({
-    google: {
-        families: ['Exo','Gudea','Montserrat','Roboto','Rubik']
-    }
-  });
-});
+document.addEventListener("DOMContentLoaded", getSearch());
+
+function getSearch(){
+    let search = document.querySelectorAll('div.search-wrap');
+  console.log('search', search);
+
+  let main = document.querySelector('main');
+  // main.appendChild(search);
+}
+
+
 
 
 
