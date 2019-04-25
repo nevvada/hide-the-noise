@@ -126,23 +126,12 @@ code {
   padding: none !important;
 }
 
-<<<<<<< HEAD
-.note > :last-child {
-  background: light;
-}
-
-=======
->>>>>>> e8c70159eb98b9ec8b1e405b07a7bb606f3f7bce
 article {
   padding-top: 30px;
   display: grid;
   align-content: center;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e8c70159eb98b9ec8b1e405b07a7bb606f3f7bce
 #wikiArticle {
   padding: 60px;
 }
