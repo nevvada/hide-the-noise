@@ -13,10 +13,19 @@
   display: none !important;
 }
 
+.document-head {
+  background-color: rgb(47, 52, 55) !important;
+  color: rgb(236, 237, 237);
+}
+
 .column-container {
   margin-left: -34%;
 }
 
+h1,
+h2 {
+  font-family: Lora, serif !important;
+}
 /* <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" /> */
 article {
   display: grid;
@@ -26,14 +35,16 @@ article {
   font-size: 1.5em;
 }
 
-article > pre.syntaxbox, .note {
+article > pre.syntaxbox,
+.note {
   font-size: 1.2em;
   background: #002127;
   color: rgb(236, 237, 237);
 }
 
-main, html {
-  background: rgb(47,52,55) !important;
+main,
+html {
+  background: rgb(47, 52, 55) !important;
 }
 
 var {
@@ -41,12 +52,56 @@ var {
   font-weight: 800;
 }
 
-.text-content p, h1, h2, h3, dl, .note {
+.text-content p,
+h1,
+h2,
+h3,
+dl,
+.note {
   max-width: none !important;
   padding: 20px !important;
 }
 
-.note > :last-child {
-  background: light
+code {
+  font-family: Lora, serif !important;
+  background: transparent !important;
+  color: rgb(81, 170, 154) !important;
 }
 
+.highlight-span {
+  background: transparent !important;
+  color: rgb(254, 218, 87) !important;
+}
+
+#Specifications,
+.standard-table,
+#Browser_compatibility,
+.bc-data {
+  display: none !important;
+}
+
+.note > :last-child {
+  background: light;
+}
+
+.newsletter-block {
+  display: none !important;
+}
+
+h2#See_also {
+  display: none !important;
+}
+
+#See_also + ul {
+  display: none !important;
+}
+
+.wiki-block,
+.contributors-sub,
+.newsletter-box {
+  display: none !important;
+}
+
+#nav-footer {
+  display: none !important;
+}
