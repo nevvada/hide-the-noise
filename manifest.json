@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Hides miscellaneous elements on MDN!",
   "content_scripts": [
-    { 
+    {
       "js": ["content.js"],
       "css": ["mdn_update.css"],
       "matches": [

@@ -48,7 +48,7 @@ article {
   font-size: 1.4em;
 }
 
-.text-content article[id=wikiArticle]>h3 .highlight-span {
+.text-content article[id='wikiArticle'] > h3 .highlight-span {
   padding-left: 0 !important;
 }
 
@@ -113,36 +113,11 @@ code {
   background: light;
 }
 
-.newsletter-block {
-  display: none !important;
-}
-
-h2#See_also {
-  display: none !important;
-}
-
-#See_also + ul {
-  display: none !important;
-}
-
-.wiki-block,
-.contributors-sub,
-.newsletter-box {
-  display: none !important;
-}
-
-#nav-footer {
-  display: none !important;
-}
-
-
 article {
   padding-top: 30px;
   display: grid;
   align-content: center;
 }
-
-
 
 #wikiArticle {
   padding: 60px;
@@ -152,42 +127,6 @@ article p:first-of-type {
   font-weight: 800 !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.resetButton {
+  color: red;
+}
