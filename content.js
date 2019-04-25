@@ -1,5 +1,6 @@
 'use strict';
 
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function() {
   // Handler when the DOM is fully loaded
   WebFont.load({
@@ -8,6 +9,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+=======
+// chrome.runtime.onInstalled.addListener(function() {
+//   chrome.storage.sync.set({ color: '#3aa757' }, function() {
+//     console.log('The color is green.');
+//   });
+// });
+
+// var images = document.getElementsByTagName('img');
+// for (var i = 0, l = images.length; i < l; i++) {
+//   images[i].src =
+//     'http://placekitten.com/' + images[i].width + '/' + images[i].height;
+// }
+
+document.addEventListener("DOMContentLoaded", getSearch());
+
+function getSearch(){
+    let search = document.querySelectorAll('div.search-wrap');
+  console.log('search', search);
+
+  let main = document.querySelector('main');
+  // main.appendChild(search);
+}
+
+
+>>>>>>> e8c70159eb98b9ec8b1e405b07a7bb606f3f7bce
 
 // const main = document.querySelector('.document-actions');
 // const resetButton = document.createElement('button');
