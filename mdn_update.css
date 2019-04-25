@@ -1,7 +1,17 @@
-#main-header, #wiki-left, .toc-links, .toc-head {
+#main-header,
+#wiki-left,
+.toc-links,
+.toc-head {
   display: none;
 }
 
+.page-buttons {
+  display: none;
+}
+
+#toc .center {
+  display: none !important;
+}
 
 .column-container {
   margin-left: -34%;
@@ -11,7 +21,7 @@
 article {
   display: grid;
   font-family: Lora, serif;
-  background: rgb(65,65,65);
+  background: rgb(64, 68, 71);
   color: rgb(236, 237, 237);
   font-size: 1.5em;
 }
