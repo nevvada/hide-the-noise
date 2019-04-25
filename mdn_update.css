@@ -42,6 +42,10 @@ article > pre.syntaxbox,
   color: rgb(236, 237, 237);
 }
 
+.js {
+  background-color: rgb(22, 23, 24) !important;
+}
+
 main,
 html {
   background: rgb(47, 52, 55) !important;
@@ -63,9 +67,14 @@ dl,
 }
 
 code {
-  font-family: Lora, serif !important;
+  font-family: 'Lucida Console', monospace !important;
   background: transparent !important;
   color: rgb(81, 170, 154) !important;
+}
+
+.note {
+  background: rgb(47, 52, 55) !important;
+  border-color: white !important;
 }
 
 .highlight-span {
