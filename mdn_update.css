@@ -14,7 +14,8 @@
 #nav-footer,
 #See_also + ul,
 h2#See_also,
-.newsletter-block {
+.newsletter-block,
+.local-anchor {
   display: none !important;
 }
 
@@ -89,7 +90,13 @@ code {
 
 .highlight-span {
   background: transparent !important;
-  color: rgb(254, 218, 87) !important;
+  color: rgb(236, 237, 237) !important;
+  text-decoration: underline !important;
+  padding: none !important;
+}
+
+.text-content article[id='wikiArticle'] > h3 .highlight-span {
+  padding: none !important;
 }
 
 .note > :last-child {
