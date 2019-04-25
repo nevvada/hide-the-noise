@@ -11,18 +11,32 @@
 article {
   display: grid;
   font-family: Lora, serif;
-  background: #F0F4F4;
-  color: #002127;
+  background: rgb(65,65,65);
+  color: rgb(236, 237, 237);
   font-size: 1.5em;
 }
 
-pre.syntaxbox, pre.twopartsyntaxbox {
+article > pre.syntaxbox, .note {
   font-size: 1.2em;
   background: #002127;
-  color: #D1DBBD;
+  color: rgb(236, 237, 237);
 }
 
-.var {
+main, html {
+  background: rgb(47,52,55) !important;
+}
+
+var {
   color: #a462d2;
   font-weight: 800;
 }
+
+.text-content p, h1, h2, h3, dl, .note {
+  max-width: none !important;
+  padding: 20px !important;
+}
+
+.note > :last-child {
+  background: light
+}
+
