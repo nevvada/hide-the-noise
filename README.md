@@ -1,4 +1,4 @@
-# chrome-extension
+# Hide the Noise
 
 This is a chrome extension inspired by Wikiwand. When turned on, it creates an interface for a faster and improved reading experience on MDN!
 
